@@ -1,0 +1,44 @@
+.navbar {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(62, 57, 97);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  height: 60px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  color: whitesmoke;
+}
+
+.link {
+  border-radius: 7px;
+  border: 1px solid rgba(142, 146, 158, 0.5);
+  padding: 0.6rem 1rem;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.link:hover {
+  box-shadow: 3px 3px 2px rgb(245, 245, 245, 0.3),
+    -3px -3px 2px rgb(245, 245, 245, 0.3);
+}
+.link i {
+  transform: scale(1.5);
+}
+
+.badge {
+  background-color: whitesmoke;
+  color: rgb(62, 57, 97);
+  font-weight: bold;
+  margin-left: 0.5rem;
+  padding: 0rem 0.1rem;
+  border-radius: 5px;
+}

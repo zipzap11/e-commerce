@@ -1,0 +1,63 @@
+.card {
+  background-color: whitesmoke;
+}
+
+.wrapper {
+  margin: 0 auto;
+  border: 0.5px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 0.2rem;
+  box-sizing: border-box;
+  width: 100%;
+  max-height: 250px;
+  height: auto;
+}
+
+.wrapper .product-img {
+  display: block;
+  margin: auto;
+  height: auto;
+  max-height: 200px;
+}
+
+.product-content {
+  display: flex;
+  border-bottom: 1px solid darkgrey;
+  column-gap: 0.2rem;
+}
+
+.left {
+  width: 60%;
+}
+
+.right {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+p {
+  font-size: 0.9em;
+  margin: 0;
+}
+
+.primary {
+  font-size: 1.05em;
+  margin: 0.4rem 0;
+}
+
+.secondary {
+  font-size: 1em;
+  color: darkgrey;
+  margin: 0.1rem 0;
+}
+
+.price {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.action {
+  margin-top: 0.5rem;
+  text-align: right;
+}

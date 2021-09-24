@@ -1,0 +1,13 @@
+button.btn {
+  background-color: rgb(37, 37, 44);
+  border-radius: 5px;
+  color: whitesmoke;
+  padding: 0.4rem 0.9rem;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+}
+button.btn:hover {
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3),
+    -1px -1px 2px 1px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,39 @@
+.title {
+  font-size: 2em;
+  letter-spacing: 2px;
+}
+
+.link {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.container {
+  width: 95%;
+  margin: 1rem auto;
+}
+
+.no-item {
+  margin-bottom: 0.7rem;
+}
+
+.util {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  font-size: 1.2em;
+}
+
+.util .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons .btn {
+  font-size: 0.8em;
+  margin: 0 0.7rem;
+}
+
+.buttons .btn:first-child {
+  border: 0.5px solid rgb(62, 57, 97);
+}

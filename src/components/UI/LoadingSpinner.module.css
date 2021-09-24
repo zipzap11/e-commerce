@@ -1,0 +1,30 @@
+.loading-spinner {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  /* border: 20px solid lightgrey; */
+  box-sizing: border-box;
+}
+
+.loading-spinner::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 20px solid;
+  border-color: rgb(62, 57, 97) transparent rgb(62, 57, 97) transparent;
+  transform: translate(-20%, -20%);
+  animation: spinner 1.3s linear infinite;
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

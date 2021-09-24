@@ -1,0 +1,55 @@
+.paper {
+  margin: 0 auto;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.paper h2 {
+  margin: 0;
+  text-align: center;
+  font-size: 1.8em;
+  letter-spacing: 2px;
+  margin-bottom: 0.7rem;
+}
+.step {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.step p {
+  display: flex;
+  align-items: center;
+}
+
+.step-num {
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.3rem;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
+
+.step-num.active {
+  background-color: rgb(62, 57, 97);
+  color: whitesmoke;
+}
+
+.step-num.finished {
+  background-color: rgb(62, 57, 97);
+}
+
+.check {
+  color: whitesmoke;
+}
+
+.line {
+  display: block;
+  background-color: rgb(223, 219, 219);
+  flex-grow: 0.9;
+  height: 2px;
+}
